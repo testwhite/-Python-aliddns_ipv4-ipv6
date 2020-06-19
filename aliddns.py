@@ -71,7 +71,7 @@ if ipv4_flag == 1:
         add(domain, name_ipv4, "A", ipv4)
         print("修改域名解析成功")
 
-print("本程序版权属于zeruns，博客：https://blog.zeruns.tech")
+print("本程序版权属于playezu，博客：https://www.playezu.com")
 
 if ipv6_flag == 1:
     request = DescribeSubDomainRecordsRequest()
